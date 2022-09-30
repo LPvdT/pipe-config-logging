@@ -1,7 +1,7 @@
 import pathlib
 
 from collections import OrderedDict
-from ruamel_yaml import YAML
+from ruamel.yaml import YAML
 from typing import Union
 
 from .log_handling import get_logger
