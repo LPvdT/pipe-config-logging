@@ -23,7 +23,7 @@ def setup_logging(log_file: Union[pathlib.Path, str], level: str) -> None:
 
     # Create directory path to log file, if it doesn't exist
     if not path.exists():
-        path.parent.mkdir(parents=True)
+        path.parent.mkdir(parents=True, exist_ok=True)
 
     # Handlers
     file_handler = FileHandler(filename=path, mode="a", encoding="utf-8")

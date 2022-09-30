@@ -113,7 +113,7 @@ def return_and_serialize(data: pd.DataFrame, output_path: str) -> pd.DataFrame:
         if not path.exists():
             log_host.debug(f"Creating directory tree to '{path.as_posix()}'")
 
-            path.parent.mkdir(parents=True)
+            path.parent.mkdir(parents=True, exist_ok=True)
 
         with open(path, "w") as f_out:
             log_host.warning(
