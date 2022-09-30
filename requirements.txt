@@ -1,5 +1,4 @@
 pathlib
-json
 pandas
 rich
-ruamel_yaml
+ruamel.yaml
