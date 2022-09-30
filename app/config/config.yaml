@@ -1,0 +1,11 @@
+# Observation methods to retain for one-hotted columns
+methods:
+  - pulsation_timing_variations
+  - transit_timing_variations
+  - astrometry
+
+# Time components to retain of the time since observation
+time-components:
+  - days
+  - minutes
+  - nanoseconds
