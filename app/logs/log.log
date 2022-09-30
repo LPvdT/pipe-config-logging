@@ -1,0 +1,9 @@
+2022-09-30 11:25:12	[INFO]: ['config_handling' >> 'load_config']: Config file loaded.
+2022-09-30 11:25:13	[INFO]: ['pipeline_components' >> 'load_data']: Data loaded.
+2022-09-30 11:25:13	[INFO]: ['pipeline_components' >> 'one_hot']: Data onehotting completed.
+2022-09-30 11:25:13	[DEBUG]: ['pipeline_components' >> 'time_components']: Cached components to retain: ['days', 'minutes', 'nanoseconds']
+2022-09-30 11:25:13	[INFO]: ['pipeline_components' >> 'time_components']: Time component decomposition completed.
+2022-09-30 11:25:13	[INFO]: ['pipeline_components' >> 'impute']: NA imputation using 'linear' interpolation completed.
+2022-09-30 11:25:13	[DEBUG]: ['pipeline_components' >> 'return_and_serialize']: Creating directory tree to 'dump/transformed.json'
+2022-09-30 11:25:13	[WARNING]: ['pipeline_components' >> 'return_and_serialize']: Data dump will overwrite existing file with the same name.
+2022-09-30 11:25:13	[INFO]: ['pipeline_components' >> 'return_and_serialize']: Data serialization (JSON) completed.
