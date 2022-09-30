@@ -20,5 +20,5 @@ if __name__ == "__main__":
         .pipe(one_hot, "method", config["methods"])
         .pipe(time_components, "year", config["time-components"])
         .pipe(impute, "linear")
-        .pipe(return_and_serialize, "./dump/output/transformed.json")
+        .pipe(return_and_serialize, "./dump/transformed.json")
     )
